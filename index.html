@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Manisha Blog App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">&#128743; ManishaBlogs</div>
+      <ul class="nav-links">
+        <li><a href="#home">&#128747; Home</a></li>
+        <li><a href="#articles">&#128747; Articles</a></li>
+        <li><a href="#contact">&#128747; Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>&#128513;Welcome to My Blog</h1>
+    <h3>&#128757; Sharing knowledge and stories that matter.</h3>
+  </section>
+
+  <section id="articles" class="content">
+    <h2>Latest Posts</h2>
+    <div class="articles-container">
+      <article class="card">
+        <img src="blog1.jpeg" alt="Post image" loading="lazy"/>
+        <h3>Post One</h3>
+        <p>This is a sample blog post. Click to read more.</p>
+        <a href="#">Read More</a>
+      </article>
+      <article class="card">
+        <img src="blog3.jpeg" alt="Post image" loading="lazy"/>
+        <h3>Post Two</h3>
+        <p>This is another blog post. Explore the content.</p>
+        <a href="#">Read More</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-form">
+    <h2>Contact Me</h2>
+    <form id="form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="response"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Blog. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
